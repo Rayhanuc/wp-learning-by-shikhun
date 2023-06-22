@@ -20,16 +20,16 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wp-learning-by-shikhun' );
+define( 'DB_NAME', "wp-learning-by-shikhun" );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', "root" );
 
 /** Database password */
-define( 'DB_PASSWORD', 'mysql' );
+define( 'DB_PASSWORD', "mysql" );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', "localhost" );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'Y2oUZ&}T8*q^IjW+Oa6/Q(V=:|odoDZ@W3M |H<>n&o]f:7+f Yj^H:?@?XMh55|' );
-define( 'SECURE_AUTH_KEY',  ';GBf~wAMM)1Xh>%vg<zTBiX^a?X9sfCmfj!BiP3z(M_EKkn<=TJ]FB}Kbm,Vl2:K' );
-define( 'LOGGED_IN_KEY',    'M-R(Z=?P9Sfn3Hg?!4@r{R6RvThk^`/Up#w&S**?3P]l;$VV2#ES5g?zqL_c%H*{' );
-define( 'NONCE_KEY',        'w2OD~M-.&SOpyRtze?&qZ0~vjv||G<HGs[8T9;PFD98WDc`6``S]uXzn|f{8)(E?' );
-define( 'AUTH_SALT',        'X]gQkX#:y8PLF#/Rq<H.6=4okAdr`.P)LT<QzFc`EDNdRcp)5mRS.zNWQ?eKbh=5' );
-define( 'SECURE_AUTH_SALT', 'QOhSx~H_INCx;^hrG7M0)~dI@Y#umoP3}[L85R&bF=eJ&MvVov=ZvQjpQzJz=Fq_' );
-define( 'LOGGED_IN_SALT',   '{^1pa-<EnLKOMSePv:Gn:YmHS@KOu[F[oK+H ;O)fjX?:(|$k-T+s:F~!VCX^_V-' );
-define( 'NONCE_SALT',       '*i2vE2$AuY>LFW2)%%vuq TMGiR+vU%YL`XX!Q7=(K Bx0(Dz}8^WjHnS]&wSBAJ' );
+define( 'AUTH_KEY',         'n3sg6evxtgp9ngyfgxqbjrxyt5oq2sezzm5rahyamxpel8ps3iiwgwoglwp1mir2' );
+define( 'SECURE_AUTH_KEY',  'ucqio614lukf1qpwizphysrtymuiavm9p1xbavrmkqxjrqx1cbisramlwschwyf6' );
+define( 'LOGGED_IN_KEY',    '5tjhxubwt6jonpx9immu68pel6dyhwnnvsulqtpxtbgjik1zi7kqkwps81z5q7jb' );
+define( 'NONCE_KEY',        'jvbdrsi2ktbzbozu7wftvqxeodywwdemirt9hmjvsi8fmh9aipwh8jitst9yj54u' );
+define( 'AUTH_SALT',        'kl2rhimdd7ni7lf7tz89f1aoiivo4uqr0qnxwq2lygnrku3mszz2yiosjlhr3zfc' );
+define( 'SECURE_AUTH_SALT', 'eg49bxnnhhhb1el3ubjgjtby8f7tr4fmhdavcyimgxpimtwkiikjjvannr8dtcxw' );
+define( 'LOGGED_IN_SALT',   '5cl3mv4asn8vwnaglrjlhdsyswiuqssibd6bye3uumhqkuejcginimetfai9li8x' );
+define( 'NONCE_SALT',       'ee6gf18ebjofvapy1getfwuanrhy8gdlwzg2bnqt47pktk7v3o2okohnuvxs4pot' );
 
 /**#@-*/
 
@@ -65,7 +65,7 @@ define( 'NONCE_SALT',       '*i2vE2$AuY>LFW2)%%vuq TMGiR+vU%YL`XX!Q7=(K Bx0(Dz}8
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 'wpdd_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -85,11 +85,12 @@ define( 'WP_DEBUG', false );
 
 
 
+define( 'WP_SITEURL', 'http://localhost:8080/wp-learning-by-shikhun/' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', __DIR__ . '/' );
+	define( 'ABSPATH', dirname(__FILE__) . '/' );
 }
 
 /** Sets up WordPress vars and included files. */

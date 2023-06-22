@@ -1,0 +1,28 @@
+[Jun 22 14:18:43] 
+[Jun 22 14:18:43] ==DUPLICATOR INSTALLER BOOTSTRAP v1.5.5==
+[Jun 22 14:18:43] ----------------------------------------------------
+[Jun 22 14:18:43] Installer bootstrap start
+[Jun 22 14:18:43] Ready to extract the installer
+[Jun 22 14:18:43] Checking permission of destination folder
+[Jun 22 14:18:43] Expand directory from offset 44965695
+[Jun 22 14:18:44] No need to create dup-installer/.htaccess or dup-installer/.user.ini
+[Jun 22 14:18:44] SAPI: apache2handler
+[Jun 22 14:18:44] Set permissions of dup-installer<br/>
+[Jun 22 14:18:44] Set permissions of dup-installer/addons<br/>
+[Jun 22 14:18:44] Set permissions of dup-installer/assets<br/>
+[Jun 22 14:18:44] Set permissions of dup-installer/classes<br/>
+[Jun 22 14:18:44] Set permissions of dup-installer/ctrls<br/>
+[Jun 22 14:18:44] Set permissions of dup-installer/favicon<br/>
+[Jun 22 14:18:44] Set permissions of dup-installer/libs<br/>
+[Jun 22 14:18:44] Set permissions of dup-installer/original_files_[HASH]<br/>
+[Jun 22 14:18:44] Set permissions of dup-installer/src<br/>
+[Jun 22 14:18:44] Set permissions of dup-installer/templates<br/>
+[Jun 22 14:18:44] Set permissions of dup-installer/vendor<br/>
+[Jun 22 14:18:44] Set permissions of dup-installer/dup-archive__[HASH].txt<br/>
+[Jun 22 14:18:44] Set permissions of dup-installer/dup-scan__[HASH].json<br/>
+[Jun 22 14:18:44] Set permissions of dup-installer/dup-scanned-dirs__[HASH].txt<br/>
+[Jun 22 14:18:44] Set permissions of dup-installer/dup-scanned-files__[HASH].txt<br/>
+[Jun 22 14:18:44] Set permissions of dup-installer/index.php<br/>
+[Jun 22 14:18:44] Set permissions of dup-installer/main.installer.php<br/>
+[Jun 22 14:18:44] DONE: No detected errors so redirecting to the main installer. Main Installer URI = http://localhost:8080/wp-learning-by-shikhun/dup-installer/main.installer.php
+[Jun 22 14:18:44] [PHP ERR][ISSUE] MSG:Module 'tokenizer' already loaded [CODE:32|FILE:Unknown|LINE:0]

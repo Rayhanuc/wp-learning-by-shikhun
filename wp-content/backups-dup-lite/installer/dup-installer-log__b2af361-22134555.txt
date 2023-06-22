@@ -1,0 +1,1068 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 02:18:48
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Darwin
+PHP VERSION_________: 7.2.34                                |7.4.33
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.33 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.54 (Unix) OpenSSL/1.1.1l PHP/7.4.33
+DOC ROOT____________: "/Applications/AMPPS/www/wp-learning-by-shikhun"
+REQUEST URL_________: "http://localhost:8080/wp-learning-by-shikhun"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/Applications/AMPPS/www/wp-learning-by-shikhun"
+URL_NEW_____________: "http://localhost:8080/wp-learning-by-shikhun"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/Applications/AMPPS/www/wp-learning-by-shikhun/20230622_myblog_[HASH]_20230622134555_archive.daf"
+ARCHIVE SIZE________: 44.91MB
+CREATED_____________: 2023-06-22 13:45:55
+WP VERSION__________: 6.2.2
+DUP VERSION_________: 1.5.5
+LICENSE_____________: Free version
+DB VERSION__________: 10.3.39
+DB FILE SIZE________: 17.89MB
+DB TABLES___________: 39
+DB ROWS_____________: 3702
+URL HOME____________: https://shikhunsasslanding.rayhanuddinchy.com
+URL CORE____________: https://shikhunsasslanding.rayhanuddinchy.com
+URL CONTENT_________: https://shikhunsasslanding.rayhanuddinchy.com/wp-content
+URL UPLOAD__________: https://shikhunsasslanding.rayhanuddinchy.com/wp-content/uploads
+URL PLUGINS_________: https://shikhunsasslanding.rayhanuddinchy.com/wp-content/plugins
+URL MU PLUGINS______: https://shikhunsasslanding.rayhanuddinchy.com/wp-content/mu-plugins
+URL THEMES__________: https://shikhunsasslanding.rayhanuddinchy.com/wp-content/themes
+PATH HOME___________: /home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com
+PATH ABS____________: /home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com
+PATH WPCONFIG_______: /home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com
+PATH WPCONTENT______: /home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com/wp-content
+PATH UPLOADS________: /home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com/wp-content/uploads
+PATH PLUGINS________: /home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com/wp-content/plugins
+PATH MUPLUGINS______: /home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com/wp-content/mu-plugins
+PATH THEMES_________: /home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "shikhunsasslanding.rayhanuddinchy.com/"
+
+PLUGINS
+PLUGIN [SLUG:akismet/akismet.php                               ][ON:false]  Akismet Anti-Spam: Spam Protection
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:hello.php                                         ][ON:false]  Hello Dolly
+PLUGIN [SLUG:insert-headers-and-footers/ihaf.php               ][ON:true ]  WPCode Lite
+PLUGIN [SLUG:wp-reset/wp-reset.php                             ][ON:true ]  WP Reset
+
+********************************************************************************
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.21783]  MESSAGE:END RENDER PAGE
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.13985]  MESSAGE:END RENDER PAGE
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00037]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00080]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00152]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00042]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/Applications/AMPPS/www/wp-learning-by-shikhun"
+--------------------------------------
+LOG-TIME[DELTA:   0.29105]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00684]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00879]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.01147]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+[PHP ERR][E_WARNING] MSG:mysqli_real_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) [CODE:2|FILE:/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/classes/database/class.db.php|LINE:55]
+DATABASE CONNECTION ERROR: Access denied for user ''@'localhost' (using password: NO)[ERRNO:1045]
+
+INSTALLER ERROR:
+Unable to connect with the following parameters:
+HOST: "localhost"
+DBUSER: ""
+DATABASE: NULL
+MESSAGE: Error: Access denied for user ''@'localhost' (using password: NO)
+
+
+      TEST "Host Connection" EXCEPTION: Unable to connect with the following parameters:<br/>HOST: "localhost"
+DBUSER: ""
+DATABASE: NULL
+MESSAGE: Error: Access denied for user ''@'localhost' (using password: NO)
+	FILE:/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/src/Utils/Log/Log.php[401]
+	TRACE:
+#0 /Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/classes/database/class.db.functions.php(134): Duplicator\Installer\Utils\Log\Log::error('Unable to conne...')
+#1 /Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/classes/validation/class.validation.database.service.php(72): DUPX_DB_Functions->dbConnection(Array)
+#2 /Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/classes/validation/database-tests/class.validation.test.db.connection.php(26): DUPX_Validation_database_service->getDbConnection()
+#3 /Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/classes/validation/class.validation.abstract.item.php(46): DUPX_Validation_test_db_connection->runTest()
+#4 /Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/classes/validation/class.validation.manager.php(232): DUPX_Validation_abstract_item->test(true)
+#5 /Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/classes/validation/class.validation.manager.php(205): DUPX_Validation_manager->runTests()
+#6 /Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/ctrls/classes/class.ctrl.ajax.php(173): DUPX_Validation_manager->getValidateData()
+#7 /Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/ctrls/classes/class.ctrl.ajax.php(95): DUPX_Ctrl_ajax::actions('validate')
+#8 /Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/main.installer.php(56): DUPX_Ctrl_ajax::controller()
+#9 {main}
+
+LOG-TIME[DELTA:   0.00335]  MESSAGE:TEST "Host Connection" RESULT: failed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Version" RESULT: skip
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Engine Support" RESULT: skip
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database GTID Mode" RESULT: skip
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Privileges: User Visibility" RESULT: skip
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: skip
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Privileges: User Resources" RESULT: skip
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Privileges: User Table Access" RESULT: skip
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: skip
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: skip
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Character Set and Collation Support" RESULT: skip
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: skip
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: skip
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Prefix too long" RESULT: skip
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.09419]  MESSAGE:END RENDER PAGE
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00024]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00042]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00048]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/Applications/AMPPS/www/wp-learning-by-shikhun"
+--------------------------------------
+LOG-TIME[DELTA:   0.11373]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00037]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01304]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.01761]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00086]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00015]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00067]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00575]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00446]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00036]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00131]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.01085]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00932]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.11179]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00260]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00411]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00251]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00593]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00054]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/Applications/AMPPS/www/wp-learning-by-shikhun"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 02:20:33
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "My Blog"
+HOME URL NEW________: "http://localhost:8080/wp-learning-by-shikhun"
+SITE URL NEW________: "http://localhost:8080/wp-learning-by-shikhun/"
+CONTENT URL NEW_____: "http://localhost:8080/wp-learning-by-shikhun/wp-content"
+UPLOAD URL NEW______: "http://localhost:8080/wp-learning-by-shikhun/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost:8080/wp-learning-by-shikhun/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost:8080/wp-learning-by-shikhun/wp-content/mu-plugins"
+HOME PATH NEW_______: "/Applications/AMPPS/www/wp-learning-by-shikhun"
+SITE PATH NEW_______: "/Applications/AMPPS/www/wp-learning-by-shikhun/"
+CONTENT PATH NEW____: "/Applications/AMPPS/www/wp-learning-by-shikhun/wp-content"
+UPLOAD PATH NEW_____: "/Applications/AMPPS/www/wp-learning-by-shikhun/wp-content/uploads"
+PLUGINS PATH NEW____: "/Applications/AMPPS/www/wp-learning-by-shikhun/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/Applications/AMPPS/www/wp-learning-by-shikhun/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer"
+	FILE: "/Applications/AMPPS/www/wp-learning-by-shikhun/20230622_myblog_[HASH]_20230622134555_installer-backup.php"
+	FILE: "/Applications/AMPPS/www/wp-learning-by-shikhun/20230622_myblog_[HASH]_20230622134555_archive.daf"
+	FILE: "/Applications/AMPPS/www/wp-learning-by-shikhun/installer.php"
+	FILE: "/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer-bootlog__b2af361-22134555.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20230622_myblog_[HASH]_20230622134555_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: DUP ARCHIVE >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+RESET CONFIG FILES: I'M GOING TO MOVE CONFIG FILE ".htaccess" IN ORIGINAL FOLDER
+	CONFIG FILE HAS BEEN RESET
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+SQL FILE NOT FOUND SO ADD TO EXTRACTION
+ARCHIVE OFFSET 0
+DAWN START EXPAND
+DUP EXPAND OFFSET 30
+CHUNK COMPLETE - RUNTIME: 4.9830 sec. - Files processed: 4,054 of 5,935
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 40822102
+DAWN CONTINUE EXPAND
+#### seeking archive offset 40822102
+DUP EXPAND OFFSET 40822102
+--------------------------------------
+PATHS MAPPING : "/Applications/AMPPS/www/wp-learning-by-shikhun"
+--------------------------------------
+DUP EXPAND DONE
+
+
+EXTRACTION: DUP ARCHIVE >>> DONE
+
+EXTRACTION COMPLETE @ 02:20:39 - RUNTIME: 6.0860 sec. - Files processed: 5,935 of 5,935
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wpdd_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 02:20:39
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wpdd_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "koonpp_wpdd_commentmeta"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: koonpp_wpdd_commentmeta]
+TABLE "koonpp_wpdd_comments"____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: koonpp_wpdd_comments]
+TABLE "koonpp_wpdd_links"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: koonpp_wpdd_links]
+TABLE "koonpp_wpdd_options"_____________________________[ROWS:     146] [EXTRACT|REPLACE] [INST NAME: koonpp_wpdd_options]
+TABLE "koonpp_wpdd_postmeta"____________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: koonpp_wpdd_postmeta]
+TABLE "koonpp_wpdd_posts"_______________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: koonpp_wpdd_posts]
+TABLE "koonpp_wpdd_termmeta"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: koonpp_wpdd_termmeta]
+TABLE "koonpp_wpdd_terms"_______________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: koonpp_wpdd_terms]
+TABLE "koonpp_wpdd_term_relationships"__________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: koonpp_wpdd_term_relationships]
+TABLE "koonpp_wpdd_term_taxonomy"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: koonpp_wpdd_term_taxonomy]
+TABLE "koonpp_wpdd_usermeta"____________________________[ROWS:      18] [EXTRACT|REPLACE] [INST NAME: koonpp_wpdd_usermeta]
+TABLE "koonpp_wpdd_users"_______________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: koonpp_wpdd_users]
+TABLE "toemql_wpdd_commentmeta"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: toemql_wpdd_commentmeta]
+TABLE "toemql_wpdd_comments"____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: toemql_wpdd_comments]
+TABLE "toemql_wpdd_e_events"____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: toemql_wpdd_e_events]
+TABLE "toemql_wpdd_links"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: toemql_wpdd_links]
+TABLE "toemql_wpdd_options"_____________________________[ROWS:     183] [EXTRACT|REPLACE] [INST NAME: toemql_wpdd_options]
+TABLE "toemql_wpdd_postmeta"____________________________[ROWS:     546] [EXTRACT|REPLACE] [INST NAME: toemql_wpdd_postmeta]
+TABLE "toemql_wpdd_posts"_______________________________[ROWS:     102] [EXTRACT|REPLACE] [INST NAME: toemql_wpdd_posts]
+TABLE "toemql_wpdd_termmeta"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: toemql_wpdd_termmeta]
+TABLE "toemql_wpdd_terms"_______________________________[ROWS:      11] [EXTRACT|REPLACE] [INST NAME: toemql_wpdd_terms]
+TABLE "toemql_wpdd_term_relationships"__________________[ROWS:      18] [EXTRACT|REPLACE] [INST NAME: toemql_wpdd_term_relationships]
+TABLE "toemql_wpdd_term_taxonomy"_______________________[ROWS:      11] [EXTRACT|REPLACE] [INST NAME: toemql_wpdd_term_taxonomy]
+TABLE "toemql_wpdd_usermeta"____________________________[ROWS:      28] [EXTRACT|REPLACE] [INST NAME: toemql_wpdd_usermeta]
+TABLE "toemql_wpdd_users"_______________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: toemql_wpdd_users]
+TABLE "wpdd_commentmeta"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdd_commentmeta]
+TABLE "wpdd_comments"___________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpdd_comments]
+TABLE "wpdd_duplicator_packages"________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpdd_duplicator_packages]
+TABLE "wpdd_e_events"___________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpdd_e_events]
+TABLE "wpdd_links"______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdd_links]
+TABLE "wpdd_options"____________________________________[ROWS:     181] [EXTRACT|REPLACE] [INST NAME: wpdd_options]
+TABLE "wpdd_postmeta"___________________________________[ROWS:    1890] [EXTRACT|REPLACE] [INST NAME: wpdd_postmeta]
+TABLE "wpdd_posts"______________________________________[ROWS:     331] [EXTRACT|REPLACE] [INST NAME: wpdd_posts]
+TABLE "wpdd_termmeta"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdd_termmeta]
+TABLE "wpdd_terms"______________________________________[ROWS:      12] [EXTRACT|REPLACE] [INST NAME: wpdd_terms]
+TABLE "wpdd_term_relationships"_________________________[ROWS:      20] [EXTRACT|REPLACE] [INST NAME: wpdd_term_relationships]
+TABLE "wpdd_term_taxonomy"______________________________[ROWS:      12] [EXTRACT|REPLACE] [INST NAME: wpdd_term_taxonomy]
+TABLE "wpdd_usermeta"___________________________________[ROWS:      30] [EXTRACT|REPLACE] [INST NAME: wpdd_usermeta]
+TABLE "wpdd_users"______________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpdd_users]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.31 -- Build Server: 10.3.39
+FILE SIZE:	dup-database__[HASH].sql (11.25MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	362
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "koonpp_wpdd_commentmeta"_________________________[ROWS:     0]
+TABLE "koonpp_wpdd_comments"____________________________[ROWS:     1]
+TABLE "koonpp_wpdd_links"_______________________________[ROWS:     0]
+TABLE "koonpp_wpdd_options"_____________________________[ROWS:   146]
+TABLE "koonpp_wpdd_postmeta"____________________________[ROWS:     2]
+TABLE "koonpp_wpdd_posts"_______________________________[ROWS:     4]
+TABLE "koonpp_wpdd_term_relationships"__________________[ROWS:     1]
+TABLE "koonpp_wpdd_term_taxonomy"_______________________[ROWS:     1]
+TABLE "koonpp_wpdd_termmeta"____________________________[ROWS:     0]
+TABLE "koonpp_wpdd_terms"_______________________________[ROWS:     1]
+TABLE "koonpp_wpdd_usermeta"____________________________[ROWS:    18]
+TABLE "koonpp_wpdd_users"_______________________________[ROWS:     1]
+TABLE "toemql_wpdd_commentmeta"_________________________[ROWS:     0]
+TABLE "toemql_wpdd_comments"____________________________[ROWS:     1]
+TABLE "toemql_wpdd_e_events"____________________________[ROWS:     1]
+TABLE "toemql_wpdd_links"_______________________________[ROWS:     0]
+TABLE "toemql_wpdd_options"_____________________________[ROWS:   183]
+TABLE "toemql_wpdd_postmeta"____________________________[ROWS:   546]
+TABLE "toemql_wpdd_posts"_______________________________[ROWS:   102]
+TABLE "toemql_wpdd_term_relationships"__________________[ROWS:    18]
+TABLE "toemql_wpdd_term_taxonomy"_______________________[ROWS:    11]
+TABLE "toemql_wpdd_termmeta"____________________________[ROWS:     0]
+TABLE "toemql_wpdd_terms"_______________________________[ROWS:    11]
+TABLE "toemql_wpdd_usermeta"____________________________[ROWS:    28]
+TABLE "toemql_wpdd_users"_______________________________[ROWS:     1]
+TABLE "wpdd_commentmeta"________________________________[ROWS:     0]
+TABLE "wpdd_comments"___________________________________[ROWS:     1]
+TABLE "wpdd_duplicator_packages"________________________[ROWS:     1]
+TABLE "wpdd_e_events"___________________________________[ROWS:     1]
+TABLE "wpdd_links"______________________________________[ROWS:     0]
+TABLE "wpdd_options"____________________________________[ROWS:   181]
+TABLE "wpdd_postmeta"___________________________________[ROWS:  1890]
+TABLE "wpdd_posts"______________________________________[ROWS:   331]
+TABLE "wpdd_term_relationships"_________________________[ROWS:    20]
+TABLE "wpdd_term_taxonomy"______________________________[ROWS:    12]
+TABLE "wpdd_termmeta"___________________________________[ROWS:     0]
+TABLE "wpdd_terms"______________________________________[ROWS:    12]
+TABLE "wpdd_usermeta"___________________________________[ROWS:    30]
+TABLE "wpdd_users"______________________________________[ROWS:     1]
+
+INSERT DATA RUNTIME: 2.2699 sec.
+STEP-2 COMPLETE @ 02:20:41 - RUNTIME: 2.2699 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com REPLACE: /Applications/AMPPS/www/wp-learning-by-shikhun/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: /home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com REPLACE: /Applications/AMPPS/www/wp-learning-by-shikhun [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://shikhunsasslanding.rayhanuddinchy.com REPLACE: http://localhost:8080/wp-learning-by-shikhun/ [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://shikhunsasslanding.rayhanuddinchy.com REPLACE: http://localhost:8080/wp-learning-by-shikhun [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 02:20:41
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 256M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wpdd_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_ui_view_state","duplicator_package_active","duplicator_settings","duplicator_is_pro_enable_notice_dismissed")
+DATABASE OPTIONS DELETED [ROWS:    21]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "koonpp_wpdd_commentmeta"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "koonpp_wpdd_comments"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][koonpp_wpdd_comments][0]
+
+EVALUATE TABLE: "koonpp_wpdd_links"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "koonpp_wpdd_options"_____________________________[ROWS:   146][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][koonpp_wpdd_options][0]
+
+EVALUATE TABLE: "koonpp_wpdd_postmeta"____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][koonpp_wpdd_postmeta][0]
+
+EVALUATE TABLE: "koonpp_wpdd_posts"_______________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][koonpp_wpdd_posts][0]
+
+EVALUATE TABLE: "koonpp_wpdd_termmeta"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "koonpp_wpdd_terms"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][koonpp_wpdd_terms][0]
+
+EVALUATE TABLE: "koonpp_wpdd_term_relationships"__________________[ROWS:     1][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "koonpp_wpdd_term_taxonomy"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][koonpp_wpdd_term_taxonomy][0]
+
+EVALUATE TABLE: "koonpp_wpdd_usermeta"____________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][koonpp_wpdd_usermeta][0]
+
+EVALUATE TABLE: "koonpp_wpdd_users"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][koonpp_wpdd_users][0]
+
+EVALUATE TABLE: "toemql_wpdd_commentmeta"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "toemql_wpdd_comments"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][toemql_wpdd_comments][0]
+
+EVALUATE TABLE: "toemql_wpdd_e_events"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][toemql_wpdd_e_events][0]
+
+EVALUATE TABLE: "toemql_wpdd_links"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "toemql_wpdd_options"_____________________________[ROWS:   183][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][toemql_wpdd_options][0]
+
+EVALUATE TABLE: "toemql_wpdd_postmeta"____________________________[ROWS:   546][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][toemql_wpdd_postmeta][0]
+
+EVALUATE TABLE: "toemql_wpdd_posts"_______________________________[ROWS:   102][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][toemql_wpdd_posts][0]
+
+EVALUATE TABLE: "toemql_wpdd_termmeta"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "toemql_wpdd_terms"_______________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][toemql_wpdd_terms][0]
+
+EVALUATE TABLE: "toemql_wpdd_term_relationships"__________________[ROWS:    18][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "toemql_wpdd_term_taxonomy"_______________________[ROWS:    11][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][toemql_wpdd_term_taxonomy][0]
+
+EVALUATE TABLE: "toemql_wpdd_usermeta"____________________________[ROWS:    28][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][toemql_wpdd_usermeta][0]
+
+EVALUATE TABLE: "toemql_wpdd_users"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][toemql_wpdd_users][0]
+
+EVALUATE TABLE: "wpdd_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdd_comments"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][wpdd_comments][0]
+
+EVALUATE TABLE: "wpdd_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdd_e_events"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][wpdd_e_events][0]
+
+EVALUATE TABLE: "wpdd_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdd_options"____________________________________[ROWS:   160][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][wpdd_options][0]
+
+EVALUATE TABLE: "wpdd_postmeta"___________________________________[ROWS:  1890][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][wpdd_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wpdd_postmeta][1]
+
+EVALUATE TABLE: "wpdd_posts"______________________________________[ROWS:   331][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][wpdd_posts][0]
+
+EVALUATE TABLE: "wpdd_termmeta"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdd_terms"______________________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][wpdd_terms][0]
+
+EVALUATE TABLE: "wpdd_term_relationships"_________________________[ROWS:    20][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdd_term_taxonomy"______________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][wpdd_term_taxonomy][0]
+
+EVALUATE TABLE: "wpdd_usermeta"___________________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][wpdd_usermeta][0]
+
+EVALUATE TABLE: "wpdd_users"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/rayhanu1/shikhunsasslanding.rayhanuddinchy.com" => "/Applications/AMPPS/www/wp-learning-by-shikhun"
+	SEARCH[urlnd]  2:"https://shikhunsasslanding.rayhanuddinchy.com" ===> "http://localhost:8080/wp-learning-by-shikhun"
+	CHUNK ACTION: CURRENT [search_replace][wpdd_users][0]
+--------------------------------------
+SCANNED:	Tables:39 	|	 Rows:3496 	|	 Cells:22384 
+UPDATED:	Tables:11 	|	 Rows:630 	|	 Cells:816 
+ERRORS:		0 
+RUNTIME:	2.326300 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/Applications/AMPPS/www/wp-learning-by-shikhun/wp-config.php
+New htaccess file created:/Applications/AMPPS/www/wp-learning-by-shikhun/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "http://localhost:8080/wp-learning-by-shikhun/"
+	UPDATE DB_NAME ""wp-learning-by-shikhun""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/Applications/AMPPS/www/wp-learning-by-shikhun"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 02:20:44 - RUNTIME: 2.4743 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[/Applications/AMPPS/www/wp-learning-by-shikhun/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.11136]  MESSAGE:END RENDER PAGE
